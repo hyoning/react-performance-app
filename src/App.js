@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import A from './components/A';
 import B from './components/B';
+import C from './components/C';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <div style={{display:'flex'}}>
           <A message={value} posts={posts}/>
           <B message={value} posts={posts}/>
+          <C message={value} posts={posts}/>
       </div>
      
    </div>
